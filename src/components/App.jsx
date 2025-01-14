@@ -54,7 +54,7 @@ const App = () => {
 
   return (
     <div>
-      <Toaster />
+      <Toaster position="top-left" />
       <SearchBar onSubmit={handleSearch} />
       {error && <ErrorMessage message={error} />}
       <ImageGallery images={images} onImageClick={setSelectedImage} />

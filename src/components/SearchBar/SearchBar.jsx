@@ -1,5 +1,5 @@
 import { useState } from "react";
-import toast from "react-hot-toast/headless";
+import toast from "react-hot-toast";
 import s from "./SearchBar.module.css";
 
 const SearchBar = ({ onSubmit }) => {
@@ -23,7 +23,9 @@ const SearchBar = ({ onSubmit }) => {
           autoFocus
           placeholder="Search images and photos"
           value={query}
-          onChange={(e) => setQuery(e.target.value)}
+          onChange={(e) => {
+            setQuery(e.target.value);
+          }}
         />
         <button className={s.serchBtn} type="submit">
           Search
