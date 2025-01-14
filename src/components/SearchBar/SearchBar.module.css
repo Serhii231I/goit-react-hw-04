@@ -1,0 +1,16 @@
+.headerContainer {
+  background-color: aqua;
+  display: flex;
+}
+.inputContainer {
+  margin: 0 auto;
+}
+
+.serchBtn {
+  background-color: #0077cc;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

@@ -1,0 +1,13 @@
+.loadMoreBtnContainer {
+  display: flex;
+}
+.loadMoreBtn {
+  padding: 20px;
+  margin: 0 auto;
+  background-color: #0077cc;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
